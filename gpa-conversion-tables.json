@@ -12,7 +12,8 @@
   "notes": [
     "All formulas take a CGPA on the stated scale and return a percentage.",
     "Universities publish their own conversion rules; a generic table is never authoritative for official paperwork. Always confirm with your exam cell.",
-    "Interactive calculators for every rule below: https://www.studentkit.tech/tools/cgpa-to-percentage-calculator"
+    "Interactive calculators for every rule below: https://www.studentkit.tech/tools/cgpa-to-percentage-calculator",
+    "Row 'german-modified-bavarian' is a general German convention (Uni-Assist), kept for completeness; it is not documented on a dedicated StudentKit page — every other row is verified against its linked StudentKit page."
   ],
   "conversions": [
     {
@@ -162,6 +163,17 @@
       "source_page": "https://www.studentkit.tech/cgpa-to-percentage/hec-pakistan"
     },
     {
+      "id": "germany-ects-bands",
+      "institution": "Germany / EU (Bologna) — ECTS letter bands",
+      "scale": "ECTS letter grade (A best … F fail) ↔ percentage band",
+      "formula": "A → 93%, B → 83%, C → 73%, D → 63%, E → 55%, F → 30% (band midpoints used by the StudentKit converter)",
+      "example": {
+        "grade": "B",
+        "percentage": 83.0
+      },
+      "source_page": "https://www.studentkit.tech/tools/gpa-conversion-tool"
+    },
+    {
       "id": "german-modified-bavarian",
       "institution": "Germany (modified Bavarian formula)",
       "scale": "percentage or points -> German grade 1.0-5.0 (1.0 best, 4.0 pass)",
@@ -177,7 +189,9 @@
         "Nmin": 50.0,
         "german_grade": 1.84
       },
-      "source_page": "https://www.studentkit.tech/tools/gpa-conversion-tool"
+      "source": "General German university convention (applied by Uni-Assist and most German admissions offices)",
+      "source_page": null,
+      "source_note": "General convention, not specific to one institution; not documented on a dedicated StudentKit page."
     }
   ]
 }

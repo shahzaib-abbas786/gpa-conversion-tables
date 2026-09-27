@@ -23,13 +23,16 @@ Each row is one published conversion rule. `formula` takes a **CGPA on the state
 | Delhi University (CBCS) | 10-pt CGPA | % = CGPA × 9.5 | 8.0 → 76.0% |
 | JNTU Hyderabad (R18+) | 10-pt CGPA | % = (CGPA − 0.5) × 10 | 8.0 → 75.0% |
 | HEC Pakistan | 4.0 CGPA | % = (CGPA ÷ 4) × 100 | 3.2 → 80.0% |
-| Germany (modified Bavarian) | any score | grade = 1 + 3 × (Nmax − Nd) ÷ (Nmax − Nmin) | 86/100, pass 50 → 1.84 |
+| Germany / EU (Bologna) — ECTS bands | ECTS letter | A → 93%, B → 83%, C → 73%, D → 63%, E → 55%, F → 30% | B → 83% |
+| Germany (modified Bavarian)† | any score | grade = 1 + 3 × (Nmax − Nd) ÷ (Nmax − Nmin) | 86/100, pass 50 → 1.84 |
 
-The German row: `Nd` is the score to convert, `Nmax` the best achievable score and `Nmin` the minimum passing score of the source system (e.g. 100 and 50 for percentages). 1.0 is the best German grade; 4.0 is a pass.
+†The modified-Bavarian row is a general German convention (Uni-Assist), not documented on a dedicated StudentKit page — every other row links to the page that calculates it.
+
+The modified-Bavarian row: `Nd` is the score to convert, `Nmax` the best achievable score and `Nmin` the minimum passing score of the source system (e.g. 100 and 50 for percentages). 1.0 is the best German grade; 4.0 is a pass.
 
 ## Files
 
-- `gpa-conversion-tables.json` — machine-readable (14 rules, worked examples, source links)
+- `gpa-conversion-tables.json` — machine-readable (15 rules, worked examples, source links)
 - `gpa-conversion-tables.csv` — the same data, spreadsheet-friendly
 
 ## Calculators
