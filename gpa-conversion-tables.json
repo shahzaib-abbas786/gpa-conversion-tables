@@ -1,6 +1,6 @@
 {
   "name": "gpa-conversion-tables",
-  "description": "Official CGPA/GPA-to-percentage conversion formulas for Indian universities (CBSE, VTU, SPPU, Anna, GTU, KTU, MAKAUT, Mumbai, AKTU, DU, JNTUH), HEC Pakistan, and the German modified Bavarian formula \u2014 as documented by StudentKit.",
+  "description": "Official CGPA/GPA-to-percentage conversion formulas for Indian universities (CBSE, VTU, SPPU, Anna, GTU, KTU, MAKAUT, Mumbai, AKTU, DU, JNTUH), HEC Pakistan, and the German modified Bavarian formula — as documented by StudentKit.",
   "version": "1.0.0",
   "updated": "2026-09-27",
   "licence": "MIT",
@@ -20,7 +20,10 @@
       "institution": "CBSE (India, class X/XII)",
       "scale": "10-point CGPA",
       "formula": "percentage = CGPA * 9.5",
-      "example": { "cgpa": 8.0, "percentage": 76.0 },
+      "example": {
+        "cgpa": 8.0,
+        "percentage": 76.0
+      },
       "source_page": "https://www.studentkit.tech/cgpa-to-percentage/cbse"
     },
     {
@@ -29,7 +32,10 @@
       "scale": "10-point CGPA",
       "formula": "percentage = (CGPA - 0.75) * 10",
       "applies_to": "CBCS scheme 2021-22 onwards (older schemes used percentage = CGPA * 10)",
-      "example": { "cgpa": 8.0, "percentage": 72.5 },
+      "example": {
+        "cgpa": 8.0,
+        "percentage": 72.5
+      },
       "source_page": "https://www.studentkit.tech/cgpa-to-percentage/vtu"
     },
     {
@@ -37,23 +43,34 @@
       "institution": "VTU (Visvesvaraya Technological University, older schemes)",
       "scale": "10-point CGPA",
       "formula": "percentage = CGPA * 10",
-      "example": { "cgpa": 8.0, "percentage": 80.0 },
+      "example": {
+        "cgpa": 8.0,
+        "percentage": 80.0
+      },
       "source_page": "https://www.studentkit.tech/cgpa-to-percentage/vtu"
     },
     {
       "id": "sppu",
       "institution": "SPPU (Savitribai Phule Pune University)",
       "scale": "10-point CGPA",
-      "formula": "percentage = (CGPA - 0.5) * 10",
-      "example": { "cgpa": 8.0, "percentage": 75.0 },
-      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/sppu"
+      "formula": "percentage = (CGPA - 0.75) * 10",
+      "example": {
+        "cgpa": 8.0,
+        "percentage": 72.5
+      },
+      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/sppu",
+      "applies_to": "SPPU Circular No. 322/2020 (FE 2019 rulebook); the -0.75 offset is shared with VTU and AKTU",
+      "citation": "Savitribai Phule Pune University - Circular No. 322/2020 (FE 2019 Rulebook)"
     },
     {
       "id": "anna-university",
       "institution": "Anna University",
       "scale": "10-point CGPA",
       "formula": "percentage = CGPA * 10 - 7.5",
-      "example": { "cgpa": 8.0, "percentage": 72.5 },
+      "example": {
+        "cgpa": 8.0,
+        "percentage": 72.5
+      },
       "source_page": "https://www.studentkit.tech/cgpa-to-percentage/anna-university"
     },
     {
@@ -61,7 +78,10 @@
       "institution": "GTU (Gujarat Technological University)",
       "scale": "10-point CGPA",
       "formula": "percentage = (CGPA - 0.5) * 10",
-      "example": { "cgpa": 8.0, "percentage": 75.0 },
+      "example": {
+        "cgpa": 8.0,
+        "percentage": 75.0
+      },
       "source_page": "https://www.studentkit.tech/cgpa-to-percentage/gtu"
     },
     {
@@ -69,7 +89,10 @@
       "institution": "KTU (Kerala Technological University)",
       "scale": "10-point CGPA",
       "formula": "percentage = (CGPA - 0.5) * 10",
-      "example": { "cgpa": 8.0, "percentage": 75.0 },
+      "example": {
+        "cgpa": 8.0,
+        "percentage": 75.0
+      },
       "source_page": "https://www.studentkit.tech/cgpa-to-percentage/ktu"
     },
     {
@@ -77,7 +100,10 @@
       "institution": "MAKAUT (Maulana Abul Kalam Azad University of Technology)",
       "scale": "10-point CGPA",
       "formula": "percentage = (CGPA - 0.5) * 10",
-      "example": { "cgpa": 8.0, "percentage": 75.0 },
+      "example": {
+        "cgpa": 8.0,
+        "percentage": 75.0
+      },
       "source_page": "https://www.studentkit.tech/cgpa-to-percentage/makaut"
     },
     {
@@ -85,7 +111,10 @@
       "institution": "Mumbai University",
       "scale": "10-point CGPA",
       "formula": "percentage = CGPA * 7.1 + 11",
-      "example": { "cgpa": 8.0, "percentage": 67.8 },
+      "example": {
+        "cgpa": 8.0,
+        "percentage": 67.8
+      },
       "source_page": "https://www.studentkit.tech/cgpa-to-percentage/mumbai-university"
     },
     {
@@ -93,7 +122,10 @@
       "institution": "AKTU (Dr. A.P.J. Abdul Kalam Technical University)",
       "scale": "10-point CGPA",
       "formula": "percentage = (CGPA - 0.75) * 10",
-      "example": { "cgpa": 8.0, "percentage": 72.5 },
+      "example": {
+        "cgpa": 8.0,
+        "percentage": 72.5
+      },
       "source_page": "https://www.studentkit.tech/cgpa-to-percentage/aktu"
     },
     {
@@ -101,7 +133,10 @@
       "institution": "Delhi University (CBCS)",
       "scale": "10-point CGPA",
       "formula": "percentage = CGPA * 9.5",
-      "example": { "cgpa": 8.0, "percentage": 76.0 },
+      "example": {
+        "cgpa": 8.0,
+        "percentage": 76.0
+      },
       "source_page": "https://www.studentkit.tech/cgpa-to-percentage/du"
     },
     {
@@ -109,7 +144,10 @@
       "institution": "JNTU Hyderabad (R18 regulation and later)",
       "scale": "10-point CGPA",
       "formula": "percentage = (CGPA - 0.5) * 10",
-      "example": { "cgpa": 8.0, "percentage": 75.0 },
+      "example": {
+        "cgpa": 8.0,
+        "percentage": 75.0
+      },
       "source_page": "https://www.studentkit.tech/cgpa-to-percentage/jntuh"
     },
     {
@@ -117,7 +155,10 @@
       "institution": "HEC Pakistan (Higher Education Commission)",
       "scale": "4.0 CGPA",
       "formula": "percentage = (CGPA / 4) * 100",
-      "example": { "cgpa": 3.2, "percentage": 80.0 },
+      "example": {
+        "cgpa": 3.2,
+        "percentage": 80.0
+      },
       "source_page": "https://www.studentkit.tech/cgpa-to-percentage/hec-pakistan"
     },
     {
@@ -130,7 +171,12 @@
         "Nmax": "best achievable score in the source system (e.g. 100 for percentage)",
         "Nmin": "minimum passing score in the source system (e.g. 50 for percentage, or 4.0 on a US GPA scale where 4.0 is best)"
       },
-      "example": { "input_score": 86.0, "Nmax": 100.0, "Nmin": 50.0, "german_grade": 1.84 },
+      "example": {
+        "input_score": 86.0,
+        "Nmax": 100.0,
+        "Nmin": 50.0,
+        "german_grade": 1.84
+      },
       "source_page": "https://www.studentkit.tech/tools/gpa-conversion-tool"
     }
   ]

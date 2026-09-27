@@ -13,7 +13,7 @@ Each row is one published conversion rule. `formula` takes a **CGPA on the state
 | CBSE (India, class X/XII) | 10-pt CGPA | % = CGPA × 9.5 | 8.0 → 76.0% |
 | VTU (CBCS 2021–22 onwards) | 10-pt CGPA | % = (CGPA − 0.75) × 10 | 8.0 → 72.5% |
 | VTU (older schemes) | 10-pt CGPA | % = CGPA × 10 | 8.0 → 80.0% |
-| SPPU (Pune University) | 10-pt CGPA | % = (CGPA − 0.5) × 10 | 8.0 → 75.0% |
+| SPPU (Pune University, Circular No. 322/2020) | 10-pt CGPA | % = (CGPA − 0.75) × 10 | 8.0 → 72.5% |
 | Anna University | 10-pt CGPA | % = CGPA × 10 − 7.5 | 8.0 → 72.5% |
 | GTU (Gujarat Technological University) | 10-pt CGPA | % = (CGPA − 0.5) × 10 | 8.0 → 75.0% |
 | KTU (Kerala Technological University) | 10-pt CGPA | % = (CGPA − 0.5) × 10 | 8.0 → 75.0% |

@@ -2,7 +2,7 @@ id,institution,scale,formula,example_input,example_output,output_unit,notes,sour
 cbse,"CBSE (India, class X/XII)",10-point CGPA,percentage = CGPA * 9.5,8.0,76.0,percentage,,https://www.studentkit.tech/cgpa-to-percentage/cbse
 vtu,VTU (Visvesvaraya Technological University),10-point CGPA,percentage = (CGPA - 0.75) * 10,8.0,72.5,percentage,CBCS scheme 2021-22 onwards (older schemes used percentage = CGPA * 10),https://www.studentkit.tech/cgpa-to-percentage/vtu
 vtu-legacy,"VTU (Visvesvaraya Technological University, older schemes)",10-point CGPA,percentage = CGPA * 10,8.0,80.0,percentage,,https://www.studentkit.tech/cgpa-to-percentage/vtu
-sppu,SPPU (Savitribai Phule Pune University),10-point CGPA,percentage = (CGPA - 0.5) * 10,8.0,75.0,percentage,,https://www.studentkit.tech/cgpa-to-percentage/sppu
+sppu,SPPU (Savitribai Phule Pune University),10-point CGPA,percentage = (CGPA - 0.75) * 10,8.0,72.5,percentage,SPPU Circular No. 322/2020 (FE 2019 rulebook); the -0.75 offset is shared with VTU and AKTU,https://www.studentkit.tech/cgpa-to-percentage/sppu
 anna-university,Anna University,10-point CGPA,percentage = CGPA * 10 - 7.5,8.0,72.5,percentage,,https://www.studentkit.tech/cgpa-to-percentage/anna-university
 gtu,GTU (Gujarat Technological University),10-point CGPA,percentage = (CGPA - 0.5) * 10,8.0,75.0,percentage,,https://www.studentkit.tech/cgpa-to-percentage/gtu
 ktu,KTU (Kerala Technological University),10-point CGPA,percentage = (CGPA - 0.5) * 10,8.0,75.0,percentage,,https://www.studentkit.tech/cgpa-to-percentage/ktu
