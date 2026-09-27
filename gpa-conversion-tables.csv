@@ -1,0 +1,15 @@
+id,institution,scale,formula,example_input,example_output,output_unit,notes,source_page
+cbse,"CBSE (India, class X/XII)",10-point CGPA,percentage = CGPA * 9.5,8.0,76.0,percentage,,https://www.studentkit.tech/cgpa-to-percentage/cbse
+vtu,VTU (Visvesvaraya Technological University),10-point CGPA,percentage = (CGPA - 0.75) * 10,8.0,72.5,percentage,CBCS scheme 2021-22 onwards (older schemes used percentage = CGPA * 10),https://www.studentkit.tech/cgpa-to-percentage/vtu
+vtu-legacy,"VTU (Visvesvaraya Technological University, older schemes)",10-point CGPA,percentage = CGPA * 10,8.0,80.0,percentage,,https://www.studentkit.tech/cgpa-to-percentage/vtu
+sppu,SPPU (Savitribai Phule Pune University),10-point CGPA,percentage = (CGPA - 0.5) * 10,8.0,75.0,percentage,,https://www.studentkit.tech/cgpa-to-percentage/sppu
+anna-university,Anna University,10-point CGPA,percentage = CGPA * 10 - 7.5,8.0,72.5,percentage,,https://www.studentkit.tech/cgpa-to-percentage/anna-university
+gtu,GTU (Gujarat Technological University),10-point CGPA,percentage = (CGPA - 0.5) * 10,8.0,75.0,percentage,,https://www.studentkit.tech/cgpa-to-percentage/gtu
+ktu,KTU (Kerala Technological University),10-point CGPA,percentage = (CGPA - 0.5) * 10,8.0,75.0,percentage,,https://www.studentkit.tech/cgpa-to-percentage/ktu
+makaut,MAKAUT (Maulana Abul Kalam Azad University of Technology),10-point CGPA,percentage = (CGPA - 0.5) * 10,8.0,75.0,percentage,,https://www.studentkit.tech/cgpa-to-percentage/makaut
+mumbai-university,Mumbai University,10-point CGPA,percentage = CGPA * 7.1 + 11,8.0,67.8,percentage,,https://www.studentkit.tech/cgpa-to-percentage/mumbai-university
+aktu,AKTU (Dr. A.P.J. Abdul Kalam Technical University),10-point CGPA,percentage = (CGPA - 0.75) * 10,8.0,72.5,percentage,,https://www.studentkit.tech/cgpa-to-percentage/aktu
+delhi-university,Delhi University (CBCS),10-point CGPA,percentage = CGPA * 9.5,8.0,76.0,percentage,,https://www.studentkit.tech/cgpa-to-percentage/du
+jntuh,JNTU Hyderabad (R18 regulation and later),10-point CGPA,percentage = (CGPA - 0.5) * 10,8.0,75.0,percentage,,https://www.studentkit.tech/cgpa-to-percentage/jntuh
+hec-pakistan,HEC Pakistan (Higher Education Commission),4.0 CGPA,percentage = (CGPA / 4) * 100,3.2,80.0,percentage,,https://www.studentkit.tech/cgpa-to-percentage/hec-pakistan
+german-modified-bavarian,Germany (modified Bavarian formula),"percentage or points -> German grade 1.0-5.0 (1.0 best, 4.0 pass)",german_grade = 1 + 3 * (Nmax - Nd) / (Nmax - Nmin),86.0,1.84,german_grade,"{""Nd"": ""the grade/score to convert"", ""Nmax"": ""best achievable score in the source system (e.g. 100 for percentage)"", ""Nmin"": ""minimum passing score in the source system (e.g. 50 for percentage, or 4.0 on a US GPA scale where 4.0 is best)""}",https://www.studentkit.tech/tools/gpa-conversion-tool
