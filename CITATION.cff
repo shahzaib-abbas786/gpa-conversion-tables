@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "GPA/CGPA to percentage conversion tables"
+message: "If you use this dataset, cite it as below."
+type: dataset
+authors:
+  - family-names: "Abbas"
+    given-names: "Shahzaib"
+    website: "https://www.studentkit.tech/"
+version: 1.0.0
+date-released: "2026-09-27"
+url: "https://github.com/shahzaib-abbas786/gpa-conversion-tables"
+license: MIT
+keywords:
+  - gpa
+  - cgpa
+  - grading-system
+  - percentage-conversion
+  - education

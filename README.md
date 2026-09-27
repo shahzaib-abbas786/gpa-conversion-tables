@@ -34,6 +34,14 @@ The modified-Bavarian row: `Nd` is the score to convert, `Nmax` the best achieva
 
 - `gpa-conversion-tables.json` — machine-readable (15 rules, worked examples, source links)
 - `gpa-conversion-tables.csv` — the same data, spreadsheet-friendly
+- `datapackage.json` — Frictionless Data descriptor (validates the CSV schema)
+- `CITATION.cff` — citation metadata for this dataset
+- `CHANGELOG.md` — release history
+- `LICENSE` — MIT
+
+## Cite this
+
+If you use this dataset, cite it as: **GPA/CGPA to percentage conversion tables** — https://github.com/shahzaib-abbas786/gpa-conversion-tables (see `CITATION.cff`).
 
 ## Calculators
 

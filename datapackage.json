@@ -1,0 +1,139 @@
+{
+  "name": "gpa-conversion-tables",
+  "title": "GPA/CGPA to percentage conversion tables",
+  "description": "Official CGPA/GPA to percentage conversion formulas for CBSE, VTU, SPPU, Anna University, GTU, KTU, MAKAUT, Mumbai University, AKTU, Delhi University, JNTUH, HEC Pakistan and Germany (ECTS bands and the modified Bavarian formula), with worked examples and source links. Maintained by StudentKit.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "MIT",
+      "path": "LICENSE"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Shahzaib Abbas",
+      "role": "author",
+      "note": "No public email published for the maintainer (contact via https://www.studentkit.tech/). Field tracked as EMPTY-HUMAN in the project's FIELDS-STATUS."
+    }
+  ],
+  "sources": [
+    {
+      "title": "StudentKit conversion page",
+      "path": "https://www.studentkit.tech/cgpa-to-percentage/aktu"
+    },
+    {
+      "title": "StudentKit conversion page",
+      "path": "https://www.studentkit.tech/cgpa-to-percentage/anna-university"
+    },
+    {
+      "title": "StudentKit conversion page",
+      "path": "https://www.studentkit.tech/cgpa-to-percentage/cbse"
+    },
+    {
+      "title": "StudentKit conversion page",
+      "path": "https://www.studentkit.tech/cgpa-to-percentage/du"
+    },
+    {
+      "title": "StudentKit conversion page",
+      "path": "https://www.studentkit.tech/cgpa-to-percentage/gtu"
+    },
+    {
+      "title": "StudentKit conversion page",
+      "path": "https://www.studentkit.tech/cgpa-to-percentage/hec-pakistan"
+    },
+    {
+      "title": "StudentKit conversion page",
+      "path": "https://www.studentkit.tech/cgpa-to-percentage/jntuh"
+    },
+    {
+      "title": "StudentKit conversion page",
+      "path": "https://www.studentkit.tech/cgpa-to-percentage/ktu"
+    },
+    {
+      "title": "StudentKit conversion page",
+      "path": "https://www.studentkit.tech/cgpa-to-percentage/makaut"
+    },
+    {
+      "title": "StudentKit conversion page",
+      "path": "https://www.studentkit.tech/cgpa-to-percentage/mumbai-university"
+    },
+    {
+      "title": "StudentKit conversion page",
+      "path": "https://www.studentkit.tech/cgpa-to-percentage/sppu"
+    },
+    {
+      "title": "StudentKit conversion page",
+      "path": "https://www.studentkit.tech/cgpa-to-percentage/vtu"
+    },
+    {
+      "title": "StudentKit conversion page",
+      "path": "https://www.studentkit.tech/tools/gpa-conversion-tool"
+    }
+  ],
+  "resources": [
+    {
+      "name": "gpa-conversion-tables-csv",
+      "path": "gpa-conversion-tables.csv",
+      "title": "GPA/CGPA conversion rules (CSV)",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable rule identifier"
+          },
+          {
+            "name": "institution",
+            "type": "string",
+            "description": "University/board the rule belongs to"
+          },
+          {
+            "name": "scale",
+            "type": "string",
+            "description": "Input scale the formula applies to"
+          },
+          {
+            "name": "formula",
+            "type": "string",
+            "description": "The conversion formula"
+          },
+          {
+            "name": "example_input",
+            "type": "any",
+            "description": "Worked-example input (number, or letter grade for the ECTS-bands row)"
+          },
+          {
+            "name": "example_output",
+            "type": "any",
+            "description": "Worked-example output (percentage or German grade)"
+          },
+          {
+            "name": "output_unit",
+            "type": "string",
+            "description": "Unit of example_output"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Scheme/citation notes; empty where none"
+          },
+          {
+            "name": "source_page",
+            "type": "string",
+            "description": "StudentKit page that documents and calculates the rule"
+          }
+        ]
+      }
+    },
+    {
+      "name": "gpa-conversion-tables-json",
+      "path": "gpa-conversion-tables.json",
+      "title": "GPA/CGPA conversion rules (JSON)",
+      "format": "json",
+      "mediatype": "application/json"
+    }
+  ]
+}
