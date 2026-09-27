@@ -155,7 +155,7 @@
       "id": "hec-pakistan",
       "institution": "HEC Pakistan (Higher Education Commission)",
       "scale": "4.0 CGPA",
-      "formula": "percentage = (CGPA / 4) * 100",
+      "formula": "percentage = (CGPA ÷ 4) × 100",
       "example": {
         "cgpa": 3.2,
         "percentage": 80.0
