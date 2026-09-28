@@ -43,6 +43,32 @@ The modified-Bavarian row: `Nd` is the score to convert, `Nmax` the best achieva
 
 If you use this dataset, cite it as: **GPA/CGPA to percentage conversion tables** — https://github.com/shahzaib-abbas786/gpa-conversion-tables (see `CITATION.cff`).
 
+## FAQ
+
+### How do I convert CGPA to percentage at VTU?
+
+Subtract 0.75 from the CGPA, then multiply by 10: percentage = (CGPA − 0.75) × 10. At VTU, a CGPA of 8.0 converts to 72.5% (8.0 − 0.75 = 7.25; × 10). Older VTU schemes used plain × 10, giving 80% for the same CGPA, so check which scheme your transcript names before converting.
+
+### Which universities subtract 0.75 before multiplying?
+
+VTU, SPPU and AKTU. Each applies percentage = (CGPA − 0.75) × 10: an 8.0 CGPA gives 72.5% at VTU, 72.5% at SPPU (Circular No. 322/2020) and 72.5% at AKTU. The three rules are algebraically identical to Anna University's CGPA × 10 − 7.5, so those certificates always match Anna's percentage exactly.
+
+### Is CGPA × 10 correct for Indian universities?
+
+Rarely. Only VTU's older schemes use plain percentage = CGPA × 10 (8.0 → 80%). CBSE and Delhi University use × 9.5 (8.0 → 76%), Anna University uses CGPA × 10 − 7.5 (8.0 → 72.5%), Mumbai University uses CGPA × 7.1 + 11 (8.0 → 67.8%), and GTU, KTU, MAKAUT and JNTUH subtract 0.5 first (8.0 → 75%).
+
+### What is 7.5 CGPA in percentage?
+
+It depends on the rule: CBSE and Delhi University give 7.5 × 9.5 = 71.3%; GTU, KTU, MAKAUT and JNTUH give (7.5 − 0.5) × 10 = 70.0%; VTU, SPPU and AKTU give (7.5 − 0.75) × 10 = 67.5%; Anna University gives 7.5 × 10 − 7.5 = 67.5%; Mumbai University gives 7.5 × 7.1 + 11 = 64.3%.
+
+### How does HEC Pakistan convert a 4.0 CGPA?
+
+HEC Pakistan uses percentage = (CGPA ÷ 4) × 100. A CGPA of 3.2 converts to 80.0% (3.2 ÷ 4 = 0.8; × 100). The mapping is linear across the whole 4.0 scale, so 2.8 equals 70% and the 4.0 maximum equals 100%. Individual universities may still apply their own internal schemes.
+
+### What is the German modified Bavarian formula?
+
+German grade = 1 + 3 × (Nmax − Nd) ÷ (Nmax − Nmin), where Nd is your score, Nmax the best achievable and Nmin the minimum passing score. Example: 86/100 with Nmin 50 gives 1 + 3 × (14 ÷ 50) = 1.84. TUM and uni-assist apply it; 1.0 is best, 4.0 a pass.
+
 ## Calculators
 
 Every rule above runs live, free and without an account at:

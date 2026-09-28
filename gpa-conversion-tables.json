@@ -25,7 +25,9 @@
         "cgpa": 8.0,
         "percentage": 76.0
       },
-      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/cbse"
+      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/cbse",
+      "notes": "Official CBSE class X/XII multiplier since 2011.",
+      "reverse_formula": "CGPA = percentage / 9.5"
     },
     {
       "id": "vtu",
@@ -37,7 +39,9 @@
         "cgpa": 8.0,
         "percentage": 72.5
       },
-      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/vtu"
+      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/vtu",
+      "notes": "CBCS scheme 2021-22 onwards (older schemes used percentage = CGPA * 10)",
+      "reverse_formula": "CGPA = percentage / 10 + 0.75"
     },
     {
       "id": "vtu-legacy",
@@ -48,7 +52,9 @@
         "cgpa": 8.0,
         "percentage": 80.0
       },
-      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/vtu"
+      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/vtu",
+      "notes": "Applies to pre-2021 VTU schemes; verify your batch on the transcript.",
+      "reverse_formula": "CGPA = percentage / 10"
     },
     {
       "id": "sppu",
@@ -61,7 +67,9 @@
       },
       "source_page": "https://www.studentkit.tech/cgpa-to-percentage/sppu",
       "applies_to": "SPPU Circular No. 322/2020 (FE 2019 rulebook); the -0.75 offset is shared with VTU and AKTU",
-      "citation": "Savitribai Phule Pune University - Circular No. 322/2020 (FE 2019 Rulebook)"
+      "citation": "Savitribai Phule Pune University - Circular No. 322/2020 (FE 2019 Rulebook)",
+      "notes": "SPPU Circular No. 322/2020 (FE 2019 rulebook); the -0.75 offset is shared with VTU and AKTU",
+      "reverse_formula": "CGPA = percentage / 10 + 0.75"
     },
     {
       "id": "anna-university",
@@ -72,7 +80,9 @@
         "cgpa": 8.0,
         "percentage": 72.5
       },
-      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/anna-university"
+      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/anna-university",
+      "notes": "Published Anna University conversion; algebraically identical to (CGPA - 0.75) x 10.",
+      "reverse_formula": "CGPA = percentage / 10 + 7.5"
     },
     {
       "id": "gtu",
@@ -83,7 +93,9 @@
         "cgpa": 8.0,
         "percentage": 75.0
       },
-      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/gtu"
+      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/gtu",
+      "notes": "GTU's published mapping; the identical formula is used by KTU and MAKAUT.",
+      "reverse_formula": "CGPA = percentage / 10 + 0.5"
     },
     {
       "id": "ktu",
@@ -94,7 +106,9 @@
         "cgpa": 8.0,
         "percentage": 75.0
       },
-      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/ktu"
+      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/ktu",
+      "notes": "Same (CGPA - 0.5) x 10 rule as GTU and MAKAUT.",
+      "reverse_formula": "CGPA = percentage / 10 + 0.5"
     },
     {
       "id": "makaut",
@@ -105,7 +119,9 @@
         "cgpa": 8.0,
         "percentage": 75.0
       },
-      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/makaut"
+      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/makaut",
+      "notes": "Same (CGPA - 0.5) x 10 rule as GTU and KTU.",
+      "reverse_formula": "CGPA = percentage / 10 + 0.5"
     },
     {
       "id": "mumbai-university",
@@ -116,7 +132,9 @@
         "cgpa": 8.0,
         "percentage": 67.8
       },
-      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/mumbai-university"
+      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/mumbai-university",
+      "notes": "Compresses the top of the scale; official Mumbai University mapping.",
+      "reverse_formula": "CGPA = (percentage - 11) / 7.1"
     },
     {
       "id": "aktu",
@@ -127,7 +145,9 @@
         "cgpa": 8.0,
         "percentage": 72.5
       },
-      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/aktu"
+      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/aktu",
+      "notes": "AKTU's published formula; -0.75 offset family with VTU and SPPU.",
+      "reverse_formula": "CGPA = percentage / 10 + 0.75"
     },
     {
       "id": "delhi-university",
@@ -138,7 +158,9 @@
         "cgpa": 8.0,
         "percentage": 76.0
       },
-      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/du"
+      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/du",
+      "notes": "CBCS multiplier; Delhi University follows the CBSE convention.",
+      "reverse_formula": "CGPA = percentage / 9.5"
     },
     {
       "id": "jntuh",
@@ -149,7 +171,9 @@
         "cgpa": 8.0,
         "percentage": 75.0
       },
-      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/jntuh"
+      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/jntuh",
+      "notes": "Applies from the R18 regulation onward; verify regulation on the certificate.",
+      "reverse_formula": "CGPA = percentage / 10 + 0.5"
     },
     {
       "id": "hec-pakistan",
@@ -160,7 +184,9 @@
         "cgpa": 3.2,
         "percentage": 80.0
       },
-      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/hec-pakistan"
+      "source_page": "https://www.studentkit.tech/cgpa-to-percentage/hec-pakistan",
+      "notes": "HEC linear equivalence for a 4.0-scale CGPA.",
+      "reverse_formula": "CGPA = percentage x 4 / 100"
     },
     {
       "id": "germany-ects-bands",
@@ -171,7 +197,10 @@
         "grade": "B",
         "percentage": 83.0
       },
-      "source_page": "https://www.studentkit.tech/tools/gpa-conversion-tool"
+      "source_page": "https://www.studentkit.tech/tools/gpa-conversion-tool",
+      "notes": "Band midpoints used by StudentKit's converter; not an official scale.",
+      "reverse_formula": null,
+      "reverse_note": "Band mapping is not invertible: ECTS letters are discrete bands, not a continuous scale."
     },
     {
       "id": "german-modified-bavarian",
@@ -189,9 +218,11 @@
         "Nmin": 50.0,
         "german_grade": 1.84
       },
-      "source": "General German university convention (applied by Uni-Assist and most German admissions offices)",
-      "source_page": null,
-      "source_note": "General convention, not specific to one institution; not documented on a dedicated StudentKit page."
+      "source": "Technical University of Munich - Conversion of Credits and Grades for Recognition (modified Bavarian formula, APSO 16(6))",
+      "source_page": "https://www.cit.tum.de/en/cit/studies/students/examination-matters-modules/recognition-conversion/",
+      "source_note": "General German convention; the linked TUM page documents the formula. No dedicated StudentKit page exists.",
+      "reverse_formula": "Nd = Nmax - (german_grade - 1) x (Nmax - Nmin) / 3",
+      "notes": "General convention (Uni-Assist, TUM); not a StudentKit-calculator rule."
     }
   ]
 }

@@ -121,6 +121,16 @@
             "description": "Scheme/citation notes; empty where none"
           },
           {
+            "name": "reverse_formula",
+            "type": "string",
+            "description": "Inverse formula; NOT-INVERTIBLE where the rule has no inverse (then reverse_note explains)"
+          },
+          {
+            "name": "reverse_note",
+            "type": "string",
+            "description": "Why the rule is not invertible; present only for NOT-INVERTIBLE rows"
+          },
+          {
             "name": "source_page",
             "type": "string",
             "description": "StudentKit page that documents and calculates the rule"
@@ -133,7 +143,93 @@
       "path": "gpa-conversion-tables.json",
       "title": "GPA/CGPA conversion rules (JSON)",
       "format": "json",
-      "mediatype": "application/json"
+      "mediatype": "application/json",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable rule identifier"
+          },
+          {
+            "name": "institution",
+            "type": "string",
+            "description": "University/board the rule belongs to"
+          },
+          {
+            "name": "scale",
+            "type": "string",
+            "description": "Input scale the formula applies to"
+          },
+          {
+            "name": "formula",
+            "type": "string",
+            "description": "Forward conversion formula (to percentage, or to German grade)"
+          },
+          {
+            "name": "example",
+            "type": "object",
+            "description": "Worked example; keys vary by rule: cgpa (10-pt/4-pt rules), grade (ECTS bands), input_score with Nmax/Nmin and german_grade (modified Bavarian)"
+          },
+          {
+            "name": "reverse_formula",
+            "type": "string",
+            "description": "Inverse formula; null where the rule is not invertible (then reverse_note explains)"
+          },
+          {
+            "name": "reverse_note",
+            "type": "string",
+            "description": "Present only when reverse_formula is null"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Scheme year, offset family or citation note"
+          },
+          {
+            "name": "source_page",
+            "type": "string",
+            "description": "Page documenting the rule (StudentKit page, or TUM page for the modified Bavarian convention)"
+          },
+          {
+            "name": "applies_to",
+            "type": "string",
+            "description": "Optional scheme/applicability note (VTU, SPPU)"
+          },
+          {
+            "name": "citation",
+            "type": "string",
+            "description": "Optional formal citation (SPPU circular)"
+          },
+          {
+            "name": "source",
+            "type": "string",
+            "description": "Optional external source title (modified Bavarian row)"
+          },
+          {
+            "name": "source_note",
+            "type": "string",
+            "description": "Optional provenance note for external-source rows"
+          }
+        ]
+      }
     }
+  ],
+  "keywords": [
+    "cgpa to percentage",
+    "vtu cgpa to percentage",
+    "sppu cgpa to percentage formula",
+    "anna university cgpa to percentage",
+    "gtu cgpa to percentage",
+    "ktu cgpa to percentage",
+    "makaut cgpa to percentage",
+    "mumbai university cgpa to percentage",
+    "aktu cgpa to percentage",
+    "hec pakistan cgpa to percentage",
+    "german grade conversion",
+    "bavarian formula calculator",
+    "cbse cgpa to percentage",
+    "jntuh cgpa to percentage",
+    "delhi university cgpa to percentage"
   ]
 }
