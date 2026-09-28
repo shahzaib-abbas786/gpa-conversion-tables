@@ -82,7 +82,7 @@
       },
       "source_page": "https://www.studentkit.tech/cgpa-to-percentage/anna-university",
       "notes": "Published Anna University conversion; algebraically identical to (CGPA - 0.75) x 10.",
-      "reverse_formula": "CGPA = percentage / 10 + 7.5"
+      "reverse_formula": "CGPA = percentage / 10 + 0.75"
     },
     {
       "id": "gtu",
